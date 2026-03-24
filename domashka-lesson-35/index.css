@@ -1,0 +1,28 @@
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+caption {
+    border: 1px solid #000
+}
+.mart{
+    font-weight: 800;
+}
+th {
+    border: 1px solid #000
+
+}
+td {
+    border: 1px solid #000
+}
+.th{
+    color: red;
+    font-weight: 800;
+}
+.font{
+    font-family: 'Times New Roman', Times, serif;
+}
+.dr {
+    color: red;
+    font-weight: 800;
+}
