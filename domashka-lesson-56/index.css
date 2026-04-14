@@ -1,0 +1,46 @@
+cursor::content
+
+html{
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.header{
+    max-width: 1320px;
+    border-bottom: 1px solid black;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.flex-container{
+display: flex;
+justify-content: space-between;
+padding: 10px 0;
+}
+
+.kvadrat{
+    width: 30px;
+    height: auto;
+}
+
+.ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.li{
+    display: inline;
+    padding-left: 20px;
+}
+
+.link{
+    text-decoration: none
+}
+
+.black{
+    color: black;
+}
