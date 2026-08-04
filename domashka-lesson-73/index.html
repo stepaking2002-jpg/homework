@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>domashka-lesson-42</title>
+<link rel="stylesheet" href="./index.css">
+<link rel="stylesheet" href="./normalize.css">
+</head>
+<body>
+    <form class="form">
+        <fieldset class="form-grop">
+        <legend class="legend">Ваши личные данные</legend>
+        <label class="labe">Ваше имя
+            <input class="input" required placeholder="имя" type="text">
+        </label>
+        <label class="labe">Ваш возраст
+            <input class="input" required placeholder="Возраст" type="number" inputmode="numeric">
+        </label>
+        <label class="labe">Ваш номер телефона
+            <input class="input" disabled placeholder="Номер телефона" type="tel" inputmode="tel">
+        </label>
+        <label class="labe">Ваша почта
+            <input class="input" required placeholder="Почта" type="email" inputmode="email">
+        </label>
+        </fieldset >
+        <fieldset class="form-grop">
+            <legend>Сообщение</legend>
+        <textarea class="textarea" required placeholder="Ваше сообщение" name="text">
+        </textarea>
+        <label class="boxcheck">
+            <input class="checkbox" type="checkbox" required name="checkbox">
+            <span class="text">Я принимаю правила</span>
+        </label>
+        </fieldset>
+        <button class="button" tybe="submit">Отправить
+        </button>
+    </form>
+</body>
+</html>
