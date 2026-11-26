@@ -79,3 +79,7 @@ section {
     text-transform: uppercase;
     color: #858e8a;
 }
+
+a {
+    text-decoration: none;
+}
